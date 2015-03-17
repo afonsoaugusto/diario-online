@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2F5195D8-2020-2B17-B3AC-4B3991009359" name="TBL_FUNCIONALIDADE_ACAO">
+<createdBy>AFONSO</createdBy>
+<createdTime>2015-03-17 01:40:46 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<abbreviation>FUNCIONALIDADE_ACAO</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SEQ_FUNCIONALIDADE_ACAO" id="225C1FD4-1FAB-B8C4-6F46-EAFF8E010520">
+<createdBy>AFONSO</createdBy>
+<createdTime>2015-03-17 01:41:20 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEQ_ACAO" id="6A33C427-7CE9-CC6A-B6C7-1CBCC8422363">
+<createdBy>AFONSO</createdBy>
+<createdTime>2015-03-17 01:41:33 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>1CA1E4DA-56A1-3CD2-B56E-F853DE43D045</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B01B83F2-5A12-BAE4-B57B-D8BDAFCC5FCC" referredColumn="1CA1E4DA-56A1-3CD2-B56E-F853DE43D045"/>
+</associations>
+</Column>
+<Column name="SEQ_FUNCIONALIDADE" id="5E4C9B43-5F15-F15E-EAC4-DF7634CFC883">
+<createdBy>AFONSO</createdBy>
+<createdTime>2015-03-17 01:42:59 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>313E0405-160D-9633-1705-EA0B6205532C</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D579E4CE-ED4A-881A-568A-8D1363F682AC" referredColumn="313E0405-160D-9633-1705-EA0B6205532C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4C6C437E-3E72-040B-6CDA-C8295B116699" name="PK_FUNCIONALIDADE_ACAO">
+<createdBy>AFONSO</createdBy>
+<createdTime>2015-03-17 01:41:20 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="225C1FD4-1FAB-B8C4-6F46-EAFF8E010520"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DB3B48C3-5623-AA70-9F3E-E72227C82A00" name="FK_FUNCIONALIDADE_ACAO">
+<createdBy>AFONSO</createdBy>
+<createdTime>2015-03-17 01:41:33 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A33C427-7CE9-CC6A-B6C7-1CBCC8422363"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="45D313C6-F3C2-7BA7-7BA4-4948EE89F74A" name="FK_FUNCIONALIDADE">
+<createdBy>AFONSO</createdBy>
+<createdTime>2015-03-17 01:42:59 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E4C9B43-5F15-F15E-EAC4-DF7634CFC883"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

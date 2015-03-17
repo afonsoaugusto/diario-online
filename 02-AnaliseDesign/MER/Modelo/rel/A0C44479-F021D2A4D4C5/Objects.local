@@ -1,8 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="61E95D51-6A02-6BC3-1C4C-7DA039D27C34" name="TBL_ACAO" seqName="seg_0"/>
+   <object objectType="Table" objectID="0001306F-CCD1-0D8A-C13C-5ED0ABF7291B" name="TBL_FUNCIONALIDADE" seqName="seg_0"/>
+   <object objectType="Table" objectID="2F5195D8-2020-2B17-B3AC-4B3991009359" name="TBL_FUNCIONALIDADE_ACAO" seqName="seg_0"/>
    <object objectType="Table" objectID="8C338679-9F04-5BF8-0D23-AB3B7C3AEFD2" name="TBL_PERFIL" seqName="seg_0"/>
+   <object objectType="Table" objectID="1D32175F-2264-C113-2F61-2CDD31C90A3F" name="TBL_PERFIL_FUNCIONALIDADE_ACAO" seqName="seg_0"/>
    <object objectType="Table" objectID="59A3F4C3-3211-A943-DD49-124EDD90D515" name="TBL_PESSOA" seqName="seg_0"/>
    <object objectType="Table" objectID="C5B36877-E3A9-E1DA-BDD0-7009DE75F429" name="TBL_USUARIO" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="021AD299-826F-9AEE-427B-33E3858D0249" name="FK_PERFIL_FUNCIONALIDADE_ACAO" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="B01B83F2-5A12-BAE4-B57B-D8BDAFCC5FCC" name="FK_FUNCIONALIDADE_ACAO" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="D579E4CE-ED4A-881A-568A-8D1363F682AC" name="FK_FUNCIONALIDADE" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="C29BF14B-AE24-4DDE-FD26-856194780316" name="FK_FUNCIONALIDADE_ACAO_PERFIL" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="804026B3-F95E-11CE-52C7-0474E294D6E7" name="FK_USUARIO_PERFIL" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="094FB708-C4B2-FE51-09AA-33191F67C398" name="TBL_USUARIO_TBL_PESSOA_FK" seqName="seg_0"/>
 </oracle.dbtools.crest.model.design.relational.RelationalDesign>

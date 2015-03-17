@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0001306F-CCD1-0D8A-C13C-5ED0ABF7291B" name="TBL_FUNCIONALIDADE">
+<createdBy>AFONSO</createdBy>
+<createdTime>2015-03-17 01:39:14 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<abbreviation>FUNCIONALIDADE</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SEQ_FUNCIONALIDADE" id="313E0405-160D-9633-1705-EA0B6205532C">
+<createdBy>AFONSO</createdBy>
+<createdTime>2015-03-17 01:39:47 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F23DAB64-6576-6F10-E865-77F72E641601" name="PK_FUNCIONALIDADE">
+<createdBy>AFONSO</createdBy>
+<createdTime>2015-03-17 01:39:47 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="313E0405-160D-9633-1705-EA0B6205532C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
