@@ -1,0 +1,6 @@
+Teste para commit.
+
+  git config --global user.email "afonsoaugustoventura@gmail.com"
+  git config --global user.name "Afonso Rodrigues"
+
+
