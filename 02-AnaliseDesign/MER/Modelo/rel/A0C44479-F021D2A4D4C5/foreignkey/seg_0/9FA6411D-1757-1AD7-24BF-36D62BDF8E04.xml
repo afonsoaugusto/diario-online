@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9FA6411D-1757-1AD7-24BF-36D62BDF8E04" name="FK_ESCOLA_TURMA">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-21 03:32:40 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<containerWithKeyObject>2A6DFC9B-6388-9492-1C10-3A8B18222801</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>9D84ABF0-4552-C98D-C8EA-111C5D9BA870</localFKIndex>
+<keyObject>E7ECB7AB-841A-D4D7-5E29-E87D06E3B125</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

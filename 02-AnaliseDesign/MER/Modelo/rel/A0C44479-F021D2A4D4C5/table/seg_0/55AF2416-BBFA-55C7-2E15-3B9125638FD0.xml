@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="55AF2416-BBFA-55C7-2E15-3B9125638FD0" name="TBL_FECHAMENTO">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-21 02:52:58 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<abbreviation>FECHAMENTO_BIMESTRE</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SEQ_FECHAMENTO" id="2E59D9E5-B450-19C6-466D-8B1F91C6F0ED">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-21 02:54:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEQ_TURMA" id="193A0734-0B56-E242-6BCD-33DFB4B79955">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-21 03:30:59 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>A7A4C9A6-776F-2DA4-37D1-3D93742C5986</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C4960882-401A-F684-4B69-F2BC6096E9B5" referredColumn="A7A4C9A6-776F-2DA4-37D1-3D93742C5986"/>
+</associations>
+</Column>
+<Column name="SEQ_ESCOLA" id="BE251F13-C588-7F79-94F6-CA60CC4DFB44">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-21 03:34:18 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>DD90EE36-15D9-1B4C-D917-6F104B6AABF9</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7489FC33-0CD5-C9AA-FEAB-B8E1216D9452" referredColumn="DD90EE36-15D9-1B4C-D917-6F104B6AABF9"/>
+</associations>
+</Column>
+<Column name="SEQ_NOTAS" id="F48B5C64-EE40-FB9A-DA71-C44BDF6A1BE0">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-21 03:35:29 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>C203F563-52F5-8FE6-86C3-FB3117307E0B</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F49EED0D-8205-7923-2526-C6967B9B78F1" referredColumn="C203F563-52F5-8FE6-86C3-FB3117307E0B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6E7DC89B-ACA5-324C-B37C-01369E35833C" name="TBL_FECHAMENTO_PK">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-21 02:54:40 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E59D9E5-B450-19C6-466D-8B1F91C6F0ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EE553A82-1717-A0C8-4ACE-CB983B0271B2" name="FK_FECHAMENTO_TURMA">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-21 03:30:59 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="193A0734-0B56-E242-6BCD-33DFB4B79955"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7E07E182-31FA-0E43-8BB2-F5E274C21EA1" name="FK_FECHAMENTO_ESCOLA">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-21 03:34:18 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE251F13-C588-7F79-94F6-CA60CC4DFB44"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DE56B1CA-F621-6EE4-7CDB-5D873573D0B2" name="FK_FECHAMENTO_NOTAS">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-21 03:35:29 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F48B5C64-EE40-FB9A-DA71-C44BDF6A1BE0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

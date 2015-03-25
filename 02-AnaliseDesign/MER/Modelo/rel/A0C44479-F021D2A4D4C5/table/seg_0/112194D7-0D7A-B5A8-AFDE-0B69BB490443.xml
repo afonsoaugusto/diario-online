@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="112194D7-0D7A-B5A8-AFDE-0B69BB490443" name="TBL_TURMA">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-21 02:58:04 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<abbreviation>TURMA AULA</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SEQ_TURMA" id="A7A4C9A6-776F-2DA4-37D1-3D93742C5986">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-21 02:58:53 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEQ_TURNO" id="C084AE03-BADB-47E4-3072-A7A4084A7C3D">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-21 03:23:32 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>84482EAA-EDBD-71A1-C834-33786DDE528B</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5955B57C-A7A1-BFC1-B8F3-BD55879D9FCA" referredColumn="84482EAA-EDBD-71A1-C834-33786DDE528B"/>
+</associations>
+</Column>
+<Column name="SEQ_PESSOA" id="ACE818E2-1161-85E8-0DC1-0A41DCA7BB42">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-23 22:02:49 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>5D5D35CB-56CA-74D1-F644-BEE257344898</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A911EA31-7A7A-9ED9-AA11-1D38A9D79C41" referredColumn="5D5D35CB-56CA-74D1-F644-BEE257344898"/>
+</associations>
+</Column>
+<Column name="SEQ_ANO" id="27B114D9-C6E4-EFFA-8D5F-FCF00811CAF0">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-23 22:19:22 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>9A9F2387-333B-F565-C8D6-EB36EC7D590D</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A9A739C9-D903-EEF9-D6C1-B1426987D0E5" referredColumn="9A9F2387-333B-F565-C8D6-EB36EC7D590D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E7ECB7AB-841A-D4D7-5E29-E87D06E3B125" name="TBL_TURMA_PK">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-21 02:58:53 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7A4C9A6-776F-2DA4-37D1-3D93742C5986"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C1FA6EFA-18DB-2E1D-03E2-A40F7BF22026" name="FK_TURMA_TURNO">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-21 03:23:32 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C084AE03-BADB-47E4-3072-A7A4084A7C3D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D51E78B7-6B64-14EC-9FA7-6DD4DEE8DD32" name="FK_PESSOA">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-23 22:02:49 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ACE818E2-1161-85E8-0DC1-0A41DCA7BB42"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="287D5A3E-0604-365F-FD2F-8098DA828E6B" name="FK_TURMA_ANO">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-23 22:19:22 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27B114D9-C6E4-EFFA-8D5F-FCF00811CAF0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
