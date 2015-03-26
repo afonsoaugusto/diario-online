@@ -8,7 +8,7 @@
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="SQE_ESCOLA" id="DD90EE36-15D9-1B4C-D917-6F104B6AABF9">
+<Column name="SEQ_ESCOLA" id="DD90EE36-15D9-1B4C-D917-6F104B6AABF9">
 <createdBy>ubuntu</createdBy>
 <createdTime>2015-03-21 03:03:20 UTC</createdTime>
 <generatorID>Gerado pelo usuário</generatorID>
@@ -17,21 +17,6 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="SQE_TURMA" id="5BC1EE19-A996-50D7-2CF3-57C54749D725">
-<createdBy>ubuntu</createdBy>
-<createdTime>2015-03-21 03:32:40 UTC</createdTime>
-<generatorID>Gerado pelo usuário</generatorID>
-<ownerDesignName>Modelo</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<delegate>A7A4C9A6-776F-2DA4-37D1-3D93742C5986</delegate>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="9FA6411D-1757-1AD7-24BF-36D62BDF8E04" referredColumn="A7A4C9A6-776F-2DA4-37D1-3D93742C5986"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -45,17 +30,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="DD90EE36-15D9-1B4C-D917-6F104B6AABF9"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="9D84ABF0-4552-C98D-C8EA-111C5D9BA870" name="FK_ESCOLA_TURMA">
-<createdBy>ubuntu</createdBy>
-<createdTime>2015-03-21 03:32:40 UTC</createdTime>
-<generatorID>Gerado pelo usuário</generatorID>
-<ownerDesignName>Modelo</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="5BC1EE19-A996-50D7-2CF3-57C54749D725"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

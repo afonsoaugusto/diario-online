@@ -1,13 +1,13 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="67F80663-6B8F-D108-ADA9-CA6A0E1D8AF8" name="FK_PRESENCA_ALUNO">
-<createdBy>ubuntu</createdBy>
-<createdTime>2015-03-23 22:05:41 UTC</createdTime>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D3D53F49-BBE6-6CE3-84E4-89D256994873" name="FK_PRESENCA_ALUNO_TURMA">
+<createdBy>afonso.rodrigues</createdBy>
+<createdTime>2015-03-26 12:04:04 UTC</createdTime>
 <generatorID>Gerado pelo usuário</generatorID>
 <ownerDesignName>Modelo</ownerDesignName>
 <containerWithKeyObject>376A55DD-420B-8C10-37C3-0D07D28F4C38</containerWithKeyObject>
 <deleteRule>NO ACTION</deleteRule>
-<localFKIndex>475587E1-B296-90CC-6C36-A7A9CD6E7905</localFKIndex>
-<keyObject>A9E2C72C-FE17-D6A5-622A-AF6EDCC4DEAD</keyObject>
+<localFKIndex>2FAB3380-8F2E-CA82-B019-787E6FD09ADB</localFKIndex>
+<keyObject>9104E06B-80F5-D43A-B445-6782C4838717</keyObject>
 <mandatory>true</mandatory>
 <transferable>true</transferable>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

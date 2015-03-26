@@ -32,21 +32,6 @@
 <colAssociation fkAssociation="094FB708-C4B2-FE51-09AA-33191F67C398" referredColumn="5D5D35CB-56CA-74D1-F644-BEE257344898"/>
 </associations>
 </Column>
-<Column name="SEQ_PERFIL" id="F7643E27-F0AD-410D-3AE8-C83CBE7D8175">
-<createdBy>afonso.rodrigues</createdBy>
-<createdTime>2015-03-16 14:46:16 UTC</createdTime>
-<generatorID>Gerado pelo usuário</generatorID>
-<ownerDesignName>Modelo</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<delegate>84743594-E045-EA9F-E552-088127E97F17</delegate>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="804026B3-F95E-11CE-52C7-0474E294D6E7" referredColumn="84743594-E045-EA9F-E552-088127E97F17"/>
-</associations>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="177DFF05-7338-D595-4E15-E92F520A47C8" name="PK_USUARIO">
@@ -81,17 +66,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="3DA98FCA-ADFC-5152-B898-3FC59C7E0252"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="41B5884E-1DBB-8BBD-3D47-0AF796360C37" name="FK_USUARIO_PERFIL">
-<createdBy>afonso.rodrigues</createdBy>
-<createdTime>2015-03-16 14:46:16 UTC</createdTime>
-<generatorID>Gerado pelo usuário</generatorID>
-<ownerDesignName>Modelo</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="F7643E27-F0AD-410D-3AE8-C83CBE7D8175"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

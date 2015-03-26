@@ -11,6 +11,7 @@
    <object objectType="Table" objectID="0001306F-CCD1-0D8A-C13C-5ED0ABF7291B" name="TBL_FUNCIONALIDADE" seqName="seg_0"/>
    <object objectType="Table" objectID="2F5195D8-2020-2B17-B3AC-4B3991009359" name="TBL_FUNCIONALIDADE_ACAO" seqName="seg_0"/>
    <object objectType="Table" objectID="F6AE80E0-5438-4BC1-08EE-09B16E282206" name="TBL_NOTAS" seqName="seg_0"/>
+   <object objectType="Table" objectID="D2AF9A98-E88C-F1E2-106E-528F3528DF8D" name="TBL_PARAMETRIZACAO" seqName="seg_0"/>
    <object objectType="Table" objectID="8C338679-9F04-5BF8-0D23-AB3B7C3AEFD2" name="TBL_PERFIL" seqName="seg_0"/>
    <object objectType="Table" objectID="1D32175F-2264-C113-2F61-2CDD31C90A3F" name="TBL_PERFIL_FUNCIONALIDADE_ACAO" seqName="seg_0"/>
    <object objectType="Table" objectID="41D41549-E5F2-AFF5-7911-A505F67CEE3D" name="TBL_PERIODO" seqName="seg_0"/>
@@ -20,29 +21,30 @@
    <object objectType="Table" objectID="112194D7-0D7A-B5A8-AFDE-0B69BB490443" name="TBL_TURMA" seqName="seg_0"/>
    <object objectType="Table" objectID="4CCDA66F-0FF6-E1F5-30F7-F931AD0DB575" name="TBL_TURNO" seqName="seg_0"/>
    <object objectType="Table" objectID="C5B36877-E3A9-E1DA-BDD0-7009DE75F429" name="TBL_USUARIO" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="D61232AC-2674-E756-CF7D-D21F337CD424" name="FK_ALUNO_SITUACAO" seqName="seg_0"/>
+   <object objectType="Table" objectID="777CDF70-E118-FD25-D2B5-80103C67639E" name="TBL_USUARIO_PERFIL" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="FE40CA22-C823-3EE0-CADE-ABF23A2EA3FA" name="FK_ALUNO_TURMA_ALUNO" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="D622782E-6B47-84E4-8868-FEE7445A7742" name="FK_ALUNO_TURMA_SITUACAO" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="13D50E8C-A43E-3154-8A07-80310108C619" name="FK_ALUNO_TURMA_TURMA" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="C2BFED04-4FD2-A5B6-844E-F2A5AFFC7E82" name="FK_NOTAS_TURMA" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="D3D53F49-BBE6-6CE3-84E4-89D256994873" name="FK_PRESENCA_ALUNO_TURMA" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="6C720251-B522-5BFE-0EA7-252DFD9DFBFD" name="FK_ATIVIDADE_DISCIPLINA" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="301C90CE-B0E2-5603-C20A-E49BB625C7F6" name="FK_DISCIPLINA_ANO" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="9FA6411D-1757-1AD7-24BF-36D62BDF8E04" name="FK_ESCOLA_TURMA" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="7489FC33-0CD5-C9AA-FEAB-B8E1216D9452" name="FK_FECHAMENTO_ESCOLA" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="F49EED0D-8205-7923-2526-C6967B9B78F1" name="FK_FECHAMENTO_NOTAS" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="DECC02BB-BA92-54DA-5FE1-44B4F922FD34" name="FK_FECHAMENTO_SITUACAO" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="C4960882-401A-F684-4B69-F2BC6096E9B5" name="FK_FECHAMENTO_TURMA" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="D579E4CE-ED4A-881A-568A-8D1363F682AC" name="FK_FUNCIONALIDADE" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="B01B83F2-5A12-BAE4-B57B-D8BDAFCC5FCC" name="FK_FUNCIONALIDADE_ACAO" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="C29BF14B-AE24-4DDE-FD26-856194780316" name="FK_FUNCIONALIDADE_ACAO_PERFIL" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="264B7E24-06DA-C964-575D-8479A73FA237" name="FK_NOTAS_ALUNO" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="583D7DE9-B7C3-D854-CF0C-D5DA2464BD9C" name="FK_NOTAS_DISCIPLINA" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="97F138C7-6634-23FB-96C0-3FE85853BB6D" name="FK_NOTAS_ALUNO_TURMA" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="7FA32323-776A-4FEE-FB2C-269F7731EF22" name="FK_NOTAS_ATIVIDADE" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="86BD4F79-2A55-150E-1929-99F674E6EC52" name="FK_NOTAS_PESSOA" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="57F23BFE-A212-E2DC-8E2F-0810E40EBC18" name="FK_NOTAS_TBL_PERIODO" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="021AD299-826F-9AEE-427B-33E3858D0249" name="FK_PERFIL_FUNCIONALIDADE_ACAO" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="A911EA31-7A7A-9ED9-AA11-1D38A9D79C41" name="FK_PESSOA" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="67F80663-6B8F-D108-ADA9-CA6A0E1D8AF8" name="FK_PRESENCA_ALUNO" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="7FCE9B36-7379-18C2-3EE8-0420DF1774EC" name="FK_PRESENCA_DISCIPLINA" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="A9A739C9-D903-EEF9-D6C1-B1426987D0E5" name="FK_TURMA_ANO" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="57A21D59-8B21-1EF6-FFD3-B5CAC06FB408" name="FK_TURMA_ESCOLA" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="5955B57C-A7A1-BFC1-B8F3-BD55879D9FCA" name="FK_TURMA_TURNO" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="804026B3-F95E-11CE-52C7-0474E294D6E7" name="FK_USUARIO_PERFIL" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="5AA57703-4D6F-D768-CF24-C8236F4C1659" name="FK_USUARIO_PERFIL_PERFIL" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="0A9C4AE5-C248-128F-215F-4BBD5AF8E23C" name="FK_USUARIO_PERFIL_USUARIO" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="094FB708-C4B2-FE51-09AA-33191F67C398" name="TBL_USUARIO_TBL_PESSOA_FK" seqName="seg_0"/>
 </oracle.dbtools.crest.model.design.relational.RelationalDesign>

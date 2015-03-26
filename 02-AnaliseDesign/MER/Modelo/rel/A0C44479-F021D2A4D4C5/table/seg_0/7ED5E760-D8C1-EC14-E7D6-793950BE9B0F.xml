@@ -18,6 +18,17 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="DES_SITUACAO" id="8B94C5E5-B0CD-B8C9-5D93-5508A93B27A7">
+<createdBy>afonso.rodrigues</createdBy>
+<createdTime>2015-03-26 12:32:16 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="89362922-3CCF-7A97-56A9-E3BE24452356" name="TBL_SITUACAO_PK">

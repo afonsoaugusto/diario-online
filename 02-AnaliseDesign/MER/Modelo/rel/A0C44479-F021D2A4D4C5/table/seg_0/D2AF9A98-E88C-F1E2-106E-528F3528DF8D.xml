@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D2AF9A98-E88C-F1E2-106E-528F3528DF8D" name="TBL_PARAMETRIZACAO">
+<createdBy>afonso.rodrigues</createdBy>
+<createdTime>2015-03-26 11:46:49 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<abbreviation>PARAMETRIZACAO</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SEQ_PARAMETRIZACAO" id="C9EF1C1E-C54E-6DE5-5B77-9564101C78B5">
+<createdBy>afonso.rodrigues</createdBy>
+<createdTime>2015-03-26 11:47:32 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DES_PARAMETRO" id="D8D17151-9785-168F-5F4F-ABBB74DCEBA0">
+<createdBy>afonso.rodrigues</createdBy>
+<createdTime>2015-03-26 12:22:27 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DES_VALOR_PARAMETRO" id="7BDF9128-B7DF-47BF-8713-A141FF7EE532">
+<createdBy>afonso.rodrigues</createdBy>
+<createdTime>2015-03-26 12:22:27 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUM_VALOR_PARAMETRO" id="7BE380DC-2850-9EA2-21D8-5B112BB051A3">
+<createdBy>afonso.rodrigues</createdBy>
+<createdTime>2015-03-26 12:22:27 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COD_PARAMETRO" id="32B34B0A-289B-9463-4D74-60DBDEFB492A">
+<createdBy>afonso.rodrigues</createdBy>
+<createdTime>2015-03-26 12:22:27 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A08C9CFF-2F19-DF1F-F859-688B58238D36" name="PK_PARAMETRIZACAO">
+<createdBy>afonso.rodrigues</createdBy>
+<createdTime>2015-03-26 11:47:32 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9EF1C1E-C54E-6DE5-5B77-9564101C78B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

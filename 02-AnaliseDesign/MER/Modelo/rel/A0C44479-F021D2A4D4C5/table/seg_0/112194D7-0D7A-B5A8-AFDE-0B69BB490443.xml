@@ -63,6 +63,21 @@
 <colAssociation fkAssociation="A9A739C9-D903-EEF9-D6C1-B1426987D0E5" referredColumn="9A9F2387-333B-F565-C8D6-EB36EC7D590D"/>
 </associations>
 </Column>
+<Column name="SEQ_ESCOLA" id="9E36504B-3BD2-9368-E300-7BC9AEA4217D">
+<createdBy>afonso.rodrigues</createdBy>
+<createdTime>2015-03-26 11:27:41 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>DD90EE36-15D9-1B4C-D917-6F104B6AABF9</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="57A21D59-8B21-1EF6-FFD3-B5CAC06FB408" referredColumn="DD90EE36-15D9-1B4C-D917-6F104B6AABF9"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="E7ECB7AB-841A-D4D7-5E29-E87D06E3B125" name="TBL_TURMA_PK">
@@ -108,6 +123,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="27B114D9-C6E4-EFFA-8D5F-FCF00811CAF0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A2566FCF-ACAF-9318-2DE4-B87B41DBD095" name="FK_TURMA_ESCOLA">
+<createdBy>afonso.rodrigues</createdBy>
+<createdTime>2015-03-26 11:27:41 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E36504B-3BD2-9368-E300-7BC9AEA4217D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

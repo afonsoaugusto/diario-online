@@ -33,21 +33,6 @@
 <colAssociation fkAssociation="86BD4F79-2A55-150E-1929-99F674E6EC52" referredColumn="5D5D35CB-56CA-74D1-F644-BEE257344898"/>
 </associations>
 </Column>
-<Column name="SEQ_ALUNO" id="5E4B30FA-39E7-3F27-2F4E-9B3BF0752487">
-<createdBy>ubuntu</createdBy>
-<createdTime>2015-03-20 22:53:13 UTC</createdTime>
-<generatorID>Gerado pelo usuário</generatorID>
-<ownerDesignName>Modelo</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<delegate>81D2CAB7-3C1B-C29A-1086-9146547579B6</delegate>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="264B7E24-06DA-C964-575D-8479A73FA237" referredColumn="81D2CAB7-3C1B-C29A-1086-9146547579B6"/>
-</associations>
-</Column>
 <Column name="SEQ_PERIODO" id="D59448CD-37D7-9892-1011-E332566CAB95">
 <createdBy>ubuntu</createdBy>
 <createdTime>2015-03-20 22:57:41 UTC</createdTime>
@@ -63,34 +48,34 @@
 <colAssociation fkAssociation="57F23BFE-A212-E2DC-8E2F-0810E40EBC18" referredColumn="A281653C-D768-8A08-06DD-81D1DD847A4E"/>
 </associations>
 </Column>
-<Column name="SEQ_DISCIPLINA" id="5A120E6B-4434-0216-93C4-6F16D0A3CDBE">
-<createdBy>ubuntu</createdBy>
-<createdTime>2015-03-21 03:14:19 UTC</createdTime>
+<Column name="SEQ_ALUNO_TURMA" id="54415145-F418-0346-2127-97B2C8370DD7">
+<createdBy>afonso.rodrigues</createdBy>
+<createdTime>2015-03-26 11:32:18 UTC</createdTime>
 <generatorID>Gerado pelo usuário</generatorID>
 <ownerDesignName>Modelo</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<delegate>0E492C40-4100-A2A5-60CC-D2D76D49B2C4</delegate>
+<delegate>889234E3-4D11-80A8-310A-C94ECCDCE223</delegate>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="583D7DE9-B7C3-D854-CF0C-D5DA2464BD9C" referredColumn="0E492C40-4100-A2A5-60CC-D2D76D49B2C4"/>
+<colAssociation fkAssociation="97F138C7-6634-23FB-96C0-3FE85853BB6D" referredColumn="889234E3-4D11-80A8-310A-C94ECCDCE223"/>
 </associations>
 </Column>
-<Column name="SEQ_TURMA" id="B96CFA3F-04CE-4934-A4A2-CE972B345002">
+<Column name="SEQ_ATIVIDADE" id="DD487D9F-67D7-CDC2-61B9-10D5258FF975">
 <createdBy>afonso.rodrigues</createdBy>
-<createdTime>2015-03-25 17:02:06 UTC</createdTime>
+<createdTime>2015-03-26 11:32:57 UTC</createdTime>
 <generatorID>Gerado pelo usuário</generatorID>
 <ownerDesignName>Modelo</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<delegate>A7A4C9A6-776F-2DA4-37D1-3D93742C5986</delegate>
+<delegate>F7F73599-777B-55C5-7DE3-7F66955A5952</delegate>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="C2BFED04-4FD2-A5B6-844E-F2A5AFFC7E82" referredColumn="A7A4C9A6-776F-2DA4-37D1-3D93742C5986"/>
+<colAssociation fkAssociation="7FA32323-776A-4FEE-FB2C-269F7731EF22" referredColumn="F7F73599-777B-55C5-7DE3-7F66955A5952"/>
 </associations>
 </Column>
 <Column name="NUM_VALOR" id="801CC3E1-1EA7-8B68-3FB8-82D014538C1C">
@@ -129,17 +114,6 @@
 <colUsage columnID="AF0EBA37-953C-14A4-DE3A-08654C15CEB0"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="1D5C7E4A-ACA5-85AA-AA5A-8DA34E308D1F" name="FK_NOTAS_ALUNO">
-<createdBy>ubuntu</createdBy>
-<createdTime>2015-03-20 22:53:13 UTC</createdTime>
-<generatorID>Gerado pelo usuário</generatorID>
-<ownerDesignName>Modelo</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="5E4B30FA-39E7-3F27-2F4E-9B3BF0752487"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="59BBF18E-2517-71D7-FE00-ECFC393FBF3E" name="FK_NOTAS_TBL_PERIODO">
 <createdBy>ubuntu</createdBy>
 <createdTime>2015-03-20 22:57:41 UTC</createdTime>
@@ -151,26 +125,26 @@
 <colUsage columnID="D59448CD-37D7-9892-1011-E332566CAB95"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="C914C8E9-A660-3858-B047-F470C2BEE32B" name="FK_NOTAS_DISCIPLINA">
-<createdBy>ubuntu</createdBy>
-<createdTime>2015-03-21 03:14:19 UTC</createdTime>
+<ind_PK_UK id="EF00BC59-43CB-C91C-98D7-F7DE4529C2DD" name="FK_NOTAS_ALUNO_TURMA">
+<createdBy>afonso.rodrigues</createdBy>
+<createdTime>2015-03-26 11:32:18 UTC</createdTime>
 <generatorID>Gerado pelo usuário</generatorID>
 <ownerDesignName>Modelo</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="5A120E6B-4434-0216-93C4-6F16D0A3CDBE"/>
+<colUsage columnID="54415145-F418-0346-2127-97B2C8370DD7"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="B52CA654-9F1F-6CFF-53D4-B5706DC03394" name="FK_NOTAS_TURMA">
+<ind_PK_UK id="1BA5C507-3A80-418C-7D1F-96172D5E3867" name="FK_NOTAS_ATIVIDADE">
 <createdBy>afonso.rodrigues</createdBy>
-<createdTime>2015-03-25 17:02:06 UTC</createdTime>
+<createdTime>2015-03-26 11:32:57 UTC</createdTime>
 <generatorID>Gerado pelo usuário</generatorID>
 <ownerDesignName>Modelo</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="B96CFA3F-04CE-4934-A4A2-CE972B345002"/>
+<colUsage columnID="DD487D9F-67D7-CDC2-61B9-10D5258FF975"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

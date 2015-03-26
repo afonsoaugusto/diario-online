@@ -48,19 +48,19 @@
 <colAssociation fkAssociation="7489FC33-0CD5-C9AA-FEAB-B8E1216D9452" referredColumn="DD90EE36-15D9-1B4C-D917-6F104B6AABF9"/>
 </associations>
 </Column>
-<Column name="SEQ_NOTAS" id="F48B5C64-EE40-FB9A-DA71-C44BDF6A1BE0">
-<createdBy>ubuntu</createdBy>
-<createdTime>2015-03-21 03:35:29 UTC</createdTime>
+<Column name="SEQ_SITUACAO" id="D179AEDA-84C2-15B7-991C-972EAF18478C">
+<createdBy>afonso.rodrigues</createdBy>
+<createdTime>2015-03-26 11:54:19 UTC</createdTime>
 <generatorID>Gerado pelo usuário</generatorID>
 <ownerDesignName>Modelo</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<delegate>C203F563-52F5-8FE6-86C3-FB3117307E0B</delegate>
+<delegate>862E833D-7CB5-6EE1-0042-E235458FFC32</delegate>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="F49EED0D-8205-7923-2526-C6967B9B78F1" referredColumn="C203F563-52F5-8FE6-86C3-FB3117307E0B"/>
+<colAssociation fkAssociation="DECC02BB-BA92-54DA-5FE1-44B4F922FD34" referredColumn="862E833D-7CB5-6EE1-0042-E235458FFC32"/>
 </associations>
 </Column>
 </columns>
@@ -99,15 +99,15 @@
 <colUsage columnID="BE251F13-C588-7F79-94F6-CA60CC4DFB44"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="DE56B1CA-F621-6EE4-7CDB-5D873573D0B2" name="FK_FECHAMENTO_NOTAS">
-<createdBy>ubuntu</createdBy>
-<createdTime>2015-03-21 03:35:29 UTC</createdTime>
+<ind_PK_UK id="7EFB4A50-D0A9-868C-5FB9-2EC7D912C2BA" name="FK_FECHAMENTO_SITUACAO">
+<createdBy>afonso.rodrigues</createdBy>
+<createdTime>2015-03-26 11:54:19 UTC</createdTime>
 <generatorID>Gerado pelo usuário</generatorID>
 <ownerDesignName>Modelo</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="F48B5C64-EE40-FB9A-DA71-C44BDF6A1BE0"/>
+<colUsage columnID="D179AEDA-84C2-15B7-991C-972EAF18478C"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
