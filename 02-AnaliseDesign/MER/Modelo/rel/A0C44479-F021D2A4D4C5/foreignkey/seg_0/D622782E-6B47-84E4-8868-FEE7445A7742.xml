@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D622782E-6B47-84E4-8868-FEE7445A7742" name="FK_ALUNO_TURMA_SITUACAO">
+<createdBy>afonso.rodrigues</createdBy>
+<createdTime>2015-03-26 11:34:45 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<containerWithKeyObject>055BB94D-4C4E-6AA1-E785-7D69D11F9C79</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>E202F874-B84B-F65A-4930-E0E382E2203D</localFKIndex>
+<keyObject>89362922-3CCF-7A97-56A9-E3BE24452356</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

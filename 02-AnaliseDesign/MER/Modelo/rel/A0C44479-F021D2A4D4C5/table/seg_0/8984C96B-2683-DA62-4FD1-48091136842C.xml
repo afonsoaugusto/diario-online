@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8984C96B-2683-DA62-4FD1-48091136842C" name="TBL_DISCIPLINA_PROFESSOR">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-28 01:02:19 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<abbreviation>DISCIPLINA_PROFESSOR</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SEQ_DISCIPLINA_PROFESSOR" id="BBD299F7-9F26-0494-926A-6513407B41A3">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-28 01:02:41 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEQ_DISCIPLINA_ANO" id="0892790D-E825-AD73-2499-72DBF8AFB89D">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-28 01:03:14 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>3767BEED-7AB6-9652-75BE-EA65300B7664</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1F7494CE-B027-D86C-A7AF-074B19CBB7DB" referredColumn="3767BEED-7AB6-9652-75BE-EA65300B7664"/>
+</associations>
+</Column>
+<Column name="SEQ_PESSOA" id="DE0C1BBB-C94D-4409-44BA-F1C2A06203C9">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-28 01:03:38 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>5D5D35CB-56CA-74D1-F644-BEE257344898</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="11E6F6EA-7B7F-1CDD-7FC3-33FBBD9F59CB" referredColumn="5D5D35CB-56CA-74D1-F644-BEE257344898"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4628C929-A49B-24FD-4223-9002ADB59CBA" name="TBL_DISCIPLINA_PROFESSOR_PK">
+<createdBy>AFONSO</createdBy>
+<createdTime>2015-03-28 12:12:12 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BBD299F7-9F26-0494-926A-6513407B41A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9E95651E-7FFF-D382-C0A7-32CFB8B1FCA1" name="FK_DISCIPLINA_PROFESSOR__ANO">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-28 01:03:14 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0892790D-E825-AD73-2499-72DBF8AFB89D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7546B2D1-EECC-B350-F70C-D3A0768D3039" name="FK_DISCIPLINA_PROFESSOR_PESSOA">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-28 01:03:38 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE0C1BBB-C94D-4409-44BA-F1C2A06203C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

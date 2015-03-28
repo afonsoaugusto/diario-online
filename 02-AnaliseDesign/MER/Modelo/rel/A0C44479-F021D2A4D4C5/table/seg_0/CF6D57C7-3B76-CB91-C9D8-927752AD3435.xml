@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CF6D57C7-3B76-CB91-C9D8-927752AD3435" name="TBL_ANO">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-23 22:16:53 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SEQ_ANO" id="9A9F2387-333B-F565-C8D6-EB36EC7D590D">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-23 22:17:23 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUM_ANO" id="AFA2A26A-7CF9-CFFF-D1DA-1BE8134B9D3B">
+<createdBy>afonso.rodrigues</createdBy>
+<createdTime>2015-03-25 12:42:10 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUM_ANO_VIGENTE" id="E55B9A96-B5B8-52F6-717B-89E42C70608F">
+<createdBy>afonso.rodrigues</createdBy>
+<createdTime>2015-03-25 12:42:10 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEQ_PARAME_NIVEL_ESCOLAR" id="9264AF05-BD46-B0D9-596F-DBBC4A7AD89A">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-28 00:00:38 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>C9EF1C1E-C54E-6DE5-5B77-9564101C78B5</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FDB80DE8-0C0B-76A8-5BD0-E083133916CC" referredColumn="C9EF1C1E-C54E-6DE5-5B77-9564101C78B5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9221969D-4554-E25C-2038-FDF2D7F0A22F" name="TBL_ANO_PK">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-23 22:17:28 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A9F2387-333B-F565-C8D6-EB36EC7D590D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="09240912-A189-03EF-9DDA-BA6C31802474" name="FK_ANO_PARAMETRIZACAO">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-28 00:00:38 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9264AF05-BD46-B0D9-596F-DBBC4A7AD89A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

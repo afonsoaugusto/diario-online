@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="094FB708-C4B2-FE51-09AA-33191F67C398" name="TBL_USUARIO_TBL_PESSOA_FK">
+<createdBy>afonso.rodrigues</createdBy>
+<createdTime>2015-03-16 14:31:34 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<containerWithKeyObject>C5B36877-E3A9-E1DA-BDD0-7009DE75F429</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>3D4FF97C-3283-A8B5-5E9C-7E5EFE1C4D31</localFKIndex>
+<keyObject>BC08B99E-12B6-8732-AA69-9531C880B4C8</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

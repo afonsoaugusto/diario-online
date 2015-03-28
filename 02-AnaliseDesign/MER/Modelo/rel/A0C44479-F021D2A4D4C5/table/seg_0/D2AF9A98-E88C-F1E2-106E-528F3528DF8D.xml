@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D2AF9A98-E88C-F1E2-106E-528F3528DF8D" name="TBL_PARAMETRIZACAO">
+<createdBy>afonso.rodrigues</createdBy>
+<createdTime>2015-03-26 11:46:49 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<abbreviation>PARAMETRIZACAO</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SEQ_PARAMETRIZACAO" id="C9EF1C1E-C54E-6DE5-5B77-9564101C78B5">
+<createdBy>afonso.rodrigues</createdBy>
+<createdTime>2015-03-26 11:47:32 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DES_VALOR_PARAMETRO" id="7BDF9128-B7DF-47BF-8713-A141FF7EE532">
+<createdBy>afonso.rodrigues</createdBy>
+<createdTime>2015-03-26 12:22:27 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUM_VALOR_PARAMETRO" id="7BE380DC-2850-9EA2-21D8-5B112BB051A3">
+<createdBy>afonso.rodrigues</createdBy>
+<createdTime>2015-03-26 12:22:27 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COD_PARAMETRO" id="32B34B0A-289B-9463-4D74-60DBDEFB492A">
+<createdBy>afonso.rodrigues</createdBy>
+<createdTime>2015-03-26 12:22:27 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEQ_PARAMETRIZACAO_PAI" id="9083394B-21B0-F2EA-26E4-ECD461748EED">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-28 00:06:37 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>C9EF1C1E-C54E-6DE5-5B77-9564101C78B5</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="02B777BF-38E9-5F65-F5F3-F96C30EDCBD5" referredColumn="C9EF1C1E-C54E-6DE5-5B77-9564101C78B5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A08C9CFF-2F19-DF1F-F859-688B58238D36" name="PK_PARAMETRIZACAO">
+<createdBy>afonso.rodrigues</createdBy>
+<createdTime>2015-03-26 11:47:32 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9EF1C1E-C54E-6DE5-5B77-9564101C78B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3263403F-4FF8-6993-BF8C-6C79FDEB653E" name="FK_PARAMETRIZACAO_PAI">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-28 00:06:37 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9083394B-21B0-F2EA-26E4-ECD461748EED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

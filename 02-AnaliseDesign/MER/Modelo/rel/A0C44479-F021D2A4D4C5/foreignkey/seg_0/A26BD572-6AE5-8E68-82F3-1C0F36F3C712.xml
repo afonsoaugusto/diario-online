@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A26BD572-6AE5-8E68-82F3-1C0F36F3C712" name="FK_FECHAMENTO_ALUNO">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-28 00:36:53 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<containerWithKeyObject>55AF2416-BBFA-55C7-2E15-3B9125638FD0</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>6FA2D43B-64C6-8397-4774-F86569530D6F</localFKIndex>
+<keyObject>A9E2C72C-FE17-D6A5-622A-AF6EDCC4DEAD</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

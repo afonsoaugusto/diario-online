@@ -1,0 +1,192 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="55AF2416-BBFA-55C7-2E15-3B9125638FD0" name="TBL_FECHAMENTO_ALUNO">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-21 02:52:58 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<abbreviation>FECHAMENTO_BIMESTRE</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SEQ_FECHAMENTO_ALUNO" id="2E59D9E5-B450-19C6-466D-8B1F91C6F0ED">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-21 02:54:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEQ_SITUACAO" id="D179AEDA-84C2-15B7-991C-972EAF18478C">
+<createdBy>afonso.rodrigues</createdBy>
+<createdTime>2015-03-26 11:54:19 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>862E833D-7CB5-6EE1-0042-E235458FFC32</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DECC02BB-BA92-54DA-5FE1-44B4F922FD34" referredColumn="862E833D-7CB5-6EE1-0042-E235458FFC32"/>
+</associations>
+</Column>
+<Column name="SEQ_ANO" id="AAEBBDEC-9EDE-32FA-7A02-048B4227355A">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-27 22:21:20 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>9A9F2387-333B-F565-C8D6-EB36EC7D590D</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8171F3BF-9E3F-696B-1796-4B308A195876" referredColumn="9A9F2387-333B-F565-C8D6-EB36EC7D590D"/>
+</associations>
+</Column>
+<Column name="DAT_LANCAMENTO" id="1B005931-8D1F-852A-BAC4-810C06AF0ABA">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-28 00:36:47 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FLG_FECHAMENTO_ATUAL" id="DE896087-E323-F35A-1B7A-C03C62C179D8">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-28 00:36:47 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUM_NOTA" id="FD90E8DF-0028-679E-3149-BB51E3C633FC">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-28 00:36:47 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUM_QTD_PRESENCA" id="71C04413-A33E-7D63-01E2-D30419A5AF3E">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-28 00:36:47 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEQ_ALUNO" id="44BE1678-E921-A27A-F72F-005EC4D1A2F7">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-28 00:36:53 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>81D2CAB7-3C1B-C29A-1086-9146547579B6</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A26BD572-6AE5-8E68-82F3-1C0F36F3C712" referredColumn="81D2CAB7-3C1B-C29A-1086-9146547579B6"/>
+</associations>
+</Column>
+<Column name="SEQ_FECHAMENTO" id="DA6A61AB-500F-43D3-9D8E-FFCED7A1D4CE">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-28 01:10:44 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>72F8D189-1DCF-1326-C19C-7D13398E6A28</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B4F5F19B-0768-651D-0EBC-D08765E15272" referredColumn="72F8D189-1DCF-1326-C19C-7D13398E6A28"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6E7DC89B-ACA5-324C-B37C-01369E35833C" name="TBL_FECHAMENTO_PK">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-21 02:54:40 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E59D9E5-B450-19C6-466D-8B1F91C6F0ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6BEF9B2D-C699-6CEC-FB9D-0268B637EE5C" name="FK_FECHAMENTO_DISCIPLINA">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-28 00:38:20 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="7EFB4A50-D0A9-868C-5FB9-2EC7D912C2BA" name="FK_FECHAMENTO_DISCIPLINAv1">
+<createdBy>afonso.rodrigues</createdBy>
+<createdTime>2015-03-26 11:54:19 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D179AEDA-84C2-15B7-991C-972EAF18478C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4789FF02-07CB-5445-69D4-97BF843618D9" name="FK_FECHAMENTO_ANO">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-27 22:21:20 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AAEBBDEC-9EDE-32FA-7A02-048B4227355A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6FA2D43B-64C6-8397-4774-F86569530D6F" name="FK_FECHAMENTO_ALUNO">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-28 00:36:53 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44BE1678-E921-A27A-F72F-005EC4D1A2F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DAA1904B-F4D2-F41F-F575-5633830D63C1" name="FK_FECHAMENTO_ALUNO_FECHAMENTO">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-28 01:10:44 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA6A61AB-500F-43D3-9D8E-FFCED7A1D4CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

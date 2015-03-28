@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E268A74B-1FD6-3D54-F405-787C9A542F5A" name="FK_FECHAMENTO_PESSOAv2">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-28 01:11:21 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<containerWithKeyObject>48C75E19-D204-9CED-87E9-0A5F78AD8CF9</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>BC5DFE61-1D90-38E8-1A9E-28A4E0FE0F76</localFKIndex>
+<keyObject>BC08B99E-12B6-8732-AA69-9531C880B4C8</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

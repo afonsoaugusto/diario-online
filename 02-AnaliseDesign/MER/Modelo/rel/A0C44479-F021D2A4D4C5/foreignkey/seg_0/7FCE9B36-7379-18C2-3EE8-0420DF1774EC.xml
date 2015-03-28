@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7FCE9B36-7379-18C2-3EE8-0420DF1774EC" name="FK_PRESENCA_DISCIPLINA">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-23 22:08:24 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<containerWithKeyObject>376A55DD-420B-8C10-37C3-0D07D28F4C38</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>EB5632F7-D6C3-1FA1-BEBD-C2E22021B1E2</localFKIndex>
+<keyObject>6A276CBF-380A-A02D-6129-5C5006D1D8E6</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

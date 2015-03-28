@@ -1,0 +1,220 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="48C75E19-D204-9CED-87E9-0A5F78AD8CF9" name="TBL_FECHAMENTO">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-28 01:10:03 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<abbreviation>FECHAMENTO</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SEQ_FECHAMENTO" id="72F8D189-1DCF-1326-C19C-7D13398E6A28">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-28 01:10:31 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEQ_PESSOA" id="3945B79C-237B-776F-668D-4B7272572622">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-28 01:11:07 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>5D5D35CB-56CA-74D1-F644-BEE257344898</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E913722C-5168-725E-DDB2-AC92417863B8" referredColumn="5D5D35CB-56CA-74D1-F644-BEE257344898"/>
+</associations>
+</Column>
+<Column name="SEQ_PESSOA_FECHAMENTO" id="190E0318-EFEB-0D1B-A9E7-E8DBC15DB4EA">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-28 01:11:21 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>5D5D35CB-56CA-74D1-F644-BEE257344898</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E268A74B-1FD6-3D54-F405-787C9A542F5A" referredColumn="5D5D35CB-56CA-74D1-F644-BEE257344898"/>
+</associations>
+</Column>
+<Column name="SEQ_ESCOLA" id="730AB1E7-D240-DFE3-CBE4-2006DD987193">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-28 01:12:10 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>DD90EE36-15D9-1B4C-D917-6F104B6AABF9</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="798B9A77-8AFD-7A22-0569-B37ABEEE953D" referredColumn="DD90EE36-15D9-1B4C-D917-6F104B6AABF9"/>
+</associations>
+</Column>
+<Column name="SEQ_DISCIPLINA" id="F0C35BCD-DFED-8AE4-070B-8232E8CC0F66">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-28 01:16:55 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>0E492C40-4100-A2A5-60CC-D2D76D49B2C4</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EB02CC0D-1063-60F0-EE40-D77892D3BD71" referredColumn="0E492C40-4100-A2A5-60CC-D2D76D49B2C4"/>
+</associations>
+</Column>
+<Column name="SEQ_TURMA" id="7CD22250-86DE-07CC-2B59-AC3348AC7621">
+<createdBy>AFONSO</createdBy>
+<createdTime>2015-03-28 12:01:12 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>A7A4C9A6-776F-2DA4-37D1-3D93742C5986</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D90D3E52-54CE-BF4F-73A4-67C3A0E5ACA3" referredColumn="A7A4C9A6-776F-2DA4-37D1-3D93742C5986"/>
+</associations>
+</Column>
+<Column name="NUM_QTD_AULAS_PREVISTAS" id="1A150CE4-1BBF-B658-60F7-7BC4F18CE87D">
+<createdBy>AFONSO</createdBy>
+<createdTime>2015-03-28 12:00:29 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUM_QTD_AULAS_DADAS" id="C2CF2CFF-148E-0641-33BD-B8B3157ECF16">
+<createdBy>AFONSO</createdBy>
+<createdTime>2015-03-28 12:00:29 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUM_QTD_ALUNOS_C_MEDIA" id="EF22380B-9DF9-E9DF-84F6-4CC66BD49AEB">
+<createdBy>AFONSO</createdBy>
+<createdTime>2015-03-28 12:00:29 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUM_QTD_ALUNO_S_MEDIA" id="F8AD012E-71B6-EAA2-B7F2-86DC3BFBBE18">
+<createdBy>AFONSO</createdBy>
+<createdTime>2015-03-28 12:00:29 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DAT_FECHAMENTO" id="E19D584B-6D38-CB32-4D1E-F36458703131">
+<createdBy>AFONSO</createdBy>
+<createdTime>2015-03-28 12:02:13 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8E9D38DD-CD81-3152-F45E-BE5056746D40" name="TBL_FECHAMENTO_PK">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-28 01:10:39 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="72F8D189-1DCF-1326-C19C-7D13398E6A28"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="643DF43D-ADED-C7F7-29D2-73EDA166C851" name="FK_FECHAMENTO_PESSOAv1">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-28 01:11:07 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3945B79C-237B-776F-668D-4B7272572622"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BC5DFE61-1D90-38E8-1A9E-28A4E0FE0F76" name="FK_FECHAMENTO_PESSOAv2">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-28 01:11:21 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="190E0318-EFEB-0D1B-A9E7-E8DBC15DB4EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="194ED04B-BECD-257D-9867-A17C87C4711E" name="FK_FECHAMENTO_ESCOLA">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-28 01:12:10 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="730AB1E7-D240-DFE3-CBE4-2006DD987193"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EF14EDC7-48F4-624B-394E-EE28E94927BB" name="FK_FECHAMENTO_DISCIPLINA">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-28 01:16:55 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0C35BCD-DFED-8AE4-070B-8232E8CC0F66"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F6765438-E3CE-C9FB-CA93-FE639F497257" name="FK_FECHAMENTO_TURMA">
+<createdBy>AFONSO</createdBy>
+<createdTime>2015-03-28 12:01:12 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7CD22250-86DE-07CC-2B59-AC3348AC7621"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9CF3CC84-D616-069E-51B5-7F7074921FF3" name="TBL_PLANO_ENSINO">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-28 00:48:28 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<abbreviation>PLANO_ENSINO</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SEQ_PLANO_ENSINO" id="B9DFB68B-5BB6-FBBF-7EE8-28910412E03F">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-28 00:49:25 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<use>0</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DES_CONTEUDO" id="883C3ED1-AD10-3AA9-3807-DC83E18CF4B9">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-28 00:49:25 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DAT_PLANO" id="EF863613-DE40-17C5-CD1B-F16F8615A2B8">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-28 00:49:25 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEQ_TURMA" id="03EF7B96-0726-40BF-FB8D-B3F7A084ADF1">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-28 00:49:57 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>A7A4C9A6-776F-2DA4-37D1-3D93742C5986</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CBE771D1-BB1C-BA53-CEB2-B6B7DF682534" referredColumn="A7A4C9A6-776F-2DA4-37D1-3D93742C5986"/>
+</associations>
+</Column>
+<Column name="SEQ_ATUACAO_PROFESSOR" id="45F1AD87-6AAC-2968-4FD2-02D3B14B7177">
+<createdBy>AFONSO</createdBy>
+<createdTime>2015-03-28 12:14:17 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>86F121A8-6AD3-3931-B329-3123DD0E01DE</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AE630007-913A-7729-4CA4-DC198AE2E0DB" referredColumn="86F121A8-6AD3-3931-B329-3123DD0E01DE"/>
+</associations>
+</Column>
+<Column name="DES_ANEXO" id="0A7F8E22-7FE4-09C0-9815-21BE2223A363">
+<createdBy>AFONSO</createdBy>
+<createdTime>2015-03-28 12:15:17 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="51A3DB5A-01C6-7378-D7A9-2A3503B55022" name="TBL_PLANO_ENSINO_PK">
+<createdBy>AFONSO</createdBy>
+<createdTime>2015-03-28 12:14:48 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9DFB68B-5BB6-FBBF-7EE8-28910412E03F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A5BC4D82-B08E-79F4-7AD2-1C06AEC66F07" name="FK_PLANO_ENSINO_TURMA">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-28 00:49:57 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03EF7B96-0726-40BF-FB8D-B3F7A084ADF1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A5CDF066-A716-E1C5-7782-A8F5FAEE72F4" name="FK_PLANO_ENSINO_ATUACAO_PROFESSOR">
+<createdBy>AFONSO</createdBy>
+<createdTime>2015-03-28 12:14:17 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="45F1AD87-6AAC-2968-4FD2-02D3B14B7177"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

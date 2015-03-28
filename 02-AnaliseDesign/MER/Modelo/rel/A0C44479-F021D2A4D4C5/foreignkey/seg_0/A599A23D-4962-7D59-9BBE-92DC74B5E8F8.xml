@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A599A23D-4962-7D59-9BBE-92DC74B5E8F8" name="FK_NOTAS_ANO">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-27 22:20:22 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<containerWithKeyObject>F6AE80E0-5438-4BC1-08EE-09B16E282206</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>5BCBA931-FDF0-4D69-07F9-2809A955EA06</localFKIndex>
+<keyObject>9221969D-4554-E25C-2038-FDF2D7F0A22F</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

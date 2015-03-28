@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="376A55DD-420B-8C10-37C3-0D07D28F4C38" name="TBL_PRESENCA">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-21 02:55:35 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<abbreviation>PRESENCA ALUNO</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SEQ_PRESENCA" id="AC8A8A37-4B50-1677-62DB-124666DFD459">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-21 02:56:33 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<listOfValues>
+<valueDef value="F" description="FALTOU"/>
+<valueDef value="P" description="PRESENTE"/>
+</listOfValues>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEQ_DISCIPLINA" id="E2083B07-9840-2DB3-9CA8-8583A336232F">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-23 22:08:24 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>0E492C40-4100-A2A5-60CC-D2D76D49B2C4</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isDiscriminatorColumn>true</isDiscriminatorColumn>
+<associations>
+<colAssociation fkAssociation="7FCE9B36-7379-18C2-3EE8-0420DF1774EC" referredColumn="0E492C40-4100-A2A5-60CC-D2D76D49B2C4"/>
+</associations>
+</Column>
+<Column name="SEQ_ALUNO" id="1B3CC47A-F871-7B26-A326-A4282C626392">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-27 22:45:05 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>81D2CAB7-3C1B-C29A-1086-9146547579B6</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EF4967BA-E718-DC5E-CDF3-05AB70FCA50C" referredColumn="81D2CAB7-3C1B-C29A-1086-9146547579B6"/>
+</associations>
+</Column>
+<Column name="FLG_PRESENTE" id="4ABEC740-155B-5F69-5A39-AB7A59FA22FF">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-28 00:12:55 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DAT_DATA_PRESENCA" id="8D9C5700-244A-C7AA-806A-D804E932891A">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-28 00:12:55 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6E951F24-F2B8-7927-7B61-4C225FFA2C2D" name="TBL_PRESENCA_PK">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-21 02:56:33 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC8A8A37-4B50-1677-62DB-124666DFD459"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FDDC80F0-503C-6D1D-1314-675925E751A1" name="FK_PRESENCA_ALUNO">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-27 22:45:05 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B3CC47A-F871-7B26-A326-A4282C626392"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EB5632F7-D6C3-1FA1-BEBD-C2E22021B1E2" name="FK_PRESENCA_DISCIPLINA">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-23 22:08:24 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2083B07-9840-2DB3-9CA8-8583A336232F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

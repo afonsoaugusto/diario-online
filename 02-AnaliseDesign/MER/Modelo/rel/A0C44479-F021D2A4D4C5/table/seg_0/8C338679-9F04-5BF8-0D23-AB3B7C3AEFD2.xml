@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8C338679-9F04-5BF8-0D23-AB3B7C3AEFD2" name="TBL_PERFIL">
+<createdBy>afonso.rodrigues</createdBy>
+<createdTime>2015-03-16 14:45:24 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<abbreviation>PERFIL</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SEQ_PERFIL" id="84743594-E045-EA9F-E552-088127E97F17">
+<createdBy>afonso.rodrigues</createdBy>
+<createdTime>2015-03-16 14:45:59 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOM_PERFIL" id="3956D8E3-0A7F-F411-9BEC-9715AE28DC83">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-20 22:21:47 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DES_PERFIL" id="3581B04B-A49B-89F3-1A9A-4D766F0EDAAC">
+<createdBy>afonso.rodrigues</createdBy>
+<createdTime>2015-03-25 17:17:36 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B5F683C9-D4E0-0E4D-8FF7-9F708EE3DFF0" name="PK_PERFIL">
+<createdBy>afonso.rodrigues</createdBy>
+<createdTime>2015-03-16 14:45:59 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84743594-E045-EA9F-E552-088127E97F17"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="02B777BF-38E9-5F65-F5F3-F96C30EDCBD5" name="FK_PARAMETRIZACAO_PAI">
+<createdBy>ubuntu</createdBy>
+<createdTime>2015-03-28 00:06:37 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<containerWithKeyObject>D2AF9A98-E88C-F1E2-106E-528F3528DF8D</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>3263403F-4FF8-6993-BF8C-6C79FDEB653E</localFKIndex>
+<keyObject>A08C9CFF-2F19-DF1F-F859-688B58238D36</keyObject>
+<mandatory>false</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
