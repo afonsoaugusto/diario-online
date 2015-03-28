@@ -1,4 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<oracle.dbtools.crest.model.design.relational.RelationalDesign>
-   <object objectType="main_view" objectID="63C9014C-8550-CAB8-8EB6-4B3D01CABB92" name="Diario_Online" visible="true"/>
-</oracle.dbtools.crest.model.design.relational.RelationalDesign>

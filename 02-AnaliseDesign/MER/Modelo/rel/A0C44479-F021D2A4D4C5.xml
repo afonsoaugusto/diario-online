@@ -1,9 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Diario_Online" id="A0C44479-2920-4E23-1586-F021D2A4D4C5" mainViewID="63C9014C-8550-CAB8-8EB6-4B3D01CABB92">
-<createdBy>afonso.rodrigues</createdBy>
-<createdTime>2015-03-16 14:16:46 UTC</createdTime>
-<generatorID>Gerado pelo usuário</generatorID>
-<ownerDesignName>Modelo</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
-</relationalModel>
