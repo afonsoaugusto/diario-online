@@ -1,0 +1,9 @@
+Ambiente de Desenvolvimento: NetBeans 8.0.2
+Banco de Dados de Desenvovimento: MySQL
+Servidor de Aplicação: Glassfish
+Tecnologia: Java J2EE 2.0
+Injeção de Dependencia: EJB
+Frameworks
+	Framework de persistencia: Hibernate
+	Framework de visualização: JSF
+	Framework de componentes JSF: Primefaces
